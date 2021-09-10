@@ -2,8 +2,9 @@
 // math.hのネイピア数との二乗誤差を求める
 // gcc napier.c -lm
 // ./a.out > napier.dat
-// set logscale x
-// plot "napier.dat" with linespoints
+
+// gnuplotにて
+// load "napier.g"
 
 #include <stdio.h>
 #include <math.h>
