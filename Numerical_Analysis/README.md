@@ -10,7 +10,7 @@
 - [ネイピア数を求めるプログラム](napier.c)を作成
 - ネイピア数との二乗誤差をgnuplot([スクリプト](napier.g))で可視化した
 
-- ![napier.png](napier.png)
+<img src="napier.png" width="600">
 
 ## 参考資料
 
