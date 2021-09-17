@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <math.h>
 
-#define EPS 0.0001
+#define EPS 0.0001 // 収束判定条件
 
 double f(double x) {
   // 5x^3 21x^2 -21x +5 = 0の解
@@ -18,7 +18,7 @@ int main() {
   double c;
 
   int cnt = 0; //繰り返し回数カウント
-
+  
   do {
     cnt++;
 
