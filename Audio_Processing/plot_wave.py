@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# plot_wave.py
+# sin波を作ってプロットする
+
 import numpy as np
 import matplotlib.pyplot as plt
 
