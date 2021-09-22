@@ -14,10 +14,12 @@ def make_sin(f, sec, sampling_freq): # f:周波数(Hz), sec:時間(秒)
     return x, sin_x
 
 if __name__ == '__main__':
-    f = 220
+    fo = 220
     sec = 1
     sampling_freq = 1000
 
-    x, sin_x = make_sin(f, sec, sampling_freq)
-    plt.plot(range(sampling_freq), np.abs(np.fft.fft(sin_x[:sampling_freq])))
+    x, sin_x = make_sin(fo, sec, sampling_freq)
+    F = np.abs(np.fft.fft(sin_x[:sampling_freq]))
+
+    plt.plot(range(sampling_freq), F)
     plt.show()
